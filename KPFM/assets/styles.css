@@ -1,0 +1,92 @@
+/* assets/styles.css */
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #022ff7;
+    color: hsla(155, 75%, 45%, 0.753);
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 0 20px;
+    
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #aeda0f;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+@keyframes move-text {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+#products .product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#products .product-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+#products .product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+#vision-mission {
+    padding: 20px;
+    background-color: #bdff06;
+}
+
+#vision-mission .vision, #vision-mission .mission {
+    margin: 10px 0;
+}
